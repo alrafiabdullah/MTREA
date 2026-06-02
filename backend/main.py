@@ -145,7 +145,7 @@ def baseline_without_attention_simulation(text: str) -> str:
     the decoder would normally attend to, simulating the information-loss
     bottleneck of a fixed-context encoder — without modifying the input text.
 
-    For short sentences (< 12 tokens after encoding), the full sequence
+    For short sentences (< 18 tokens after encoding), the full sequence
     passes through so there is no visible degradation on simple examples.
     """
     tokenizer, model, device = get_translation_stack()
