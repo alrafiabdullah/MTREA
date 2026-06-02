@@ -162,7 +162,7 @@ def baseline_without_attention_simulation(text: str) -> str:
     src_len = hidden.shape[1]
     orig_mask = inputs["attention_mask"]  # (1, src_len)
 
-    if src_len >= 12:
+    if src_len >= 18:
         keep_front = 4
         keep_back = 3
         front = hidden[:, :keep_front, :]
