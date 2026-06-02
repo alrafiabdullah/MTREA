@@ -1,0 +1,7 @@
+fastapi==0.115.6
+sacremoses==0.1.1
+sentencepiece==0.2.1
+transformers==5.8.1
+torch==2.11.0
+torchvision==0.26.0
+uvicorn==0.32.1
