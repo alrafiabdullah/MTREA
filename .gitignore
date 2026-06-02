@@ -202,4 +202,7 @@ sketch
 .history
 .ionide
 
+*.md
+!README.md
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,react
